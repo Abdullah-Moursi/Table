@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="main">
-         <div class="inputs">
+      <div class="inputs">
         <el-row :gutter="2" type="flex" class="row-bg" justify="end">
           <el-col :span="3"
             ><div class="grid-content bg-purple">
@@ -139,7 +139,7 @@
         </el-table>
       </div>
     </div>
-     
+
     <footer>
       <el-row :gutter="8" type="flex" class="row-bg" justify="start">
         <div class="footer-btn">
@@ -335,7 +335,7 @@ footer {
 .el-table_2_column_7.is-leaf,
 .el-table_2_column_7 {
   font-size: large;
-  background: rgb(85, 222, 231);
+  background: rgb(85, 222, 231) !important;
   color: #fff;
 }
 
@@ -343,7 +343,7 @@ footer {
 .el-table_2_column_5.is-leaf,
 .el-table_2_column_6,
 .el-table_2_column_5 {
-  background: rgba(237, 240, 101, 0.425);
+  background: rgba(237, 240, 101, 0.425) !important;
   color: #606266;
 }
 .el-table .cell {
